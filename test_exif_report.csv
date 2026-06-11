@@ -1,0 +1,6 @@
+﻿FilePath,FileName,0th.Artist,0th.DateTime,0th.ExifTag,0th.GPSTag,0th.Make,0th.Model,0th.Software,Exif.DateTimeOriginal,Exif.ExposureTime,Exif.FNumber,Exif.FocalLength,Exif.ISOSpeedRatings,GPS.GPSLatitude,GPS.GPSLatitudeRef,GPS.GPSLongitude,GPS.GPSLongitudeRef
+test_images\subfolder\sub_image.jpg,sub_image.jpg,Test Author,2024:01:15 10:30:00,173,279,Test Camera,Test Model X1,TestSoftware 1.0,2024:01:15 10:30:00,"(1, 200)","(28, 10)","(50, 1)",100,"((39, 1), (54, 1), (30, 1))",N,"((116, 1), (23, 1), (45, 1))",E
+test_images\test_image.png,test_image.png,,,,,,,,,,,,,,,,
+test_images\test_image_0.jpg,test_image_0.jpg,Test Author,2024:01:15 10:30:00,173,279,Test Camera,Test Model X1,TestSoftware 1.0,2024:01:15 10:30:00,"(1, 200)","(28, 10)","(50, 1)",100,"((39, 1), (54, 1), (30, 1))",N,"((116, 1), (23, 1), (45, 1))",E
+test_images\test_image_1.jpg,test_image_1.jpg,Test Author,2024:01:15 10:30:00,173,279,Test Camera,Test Model X1,TestSoftware 1.0,2024:01:15 10:30:00,"(1, 200)","(28, 10)","(50, 1)",100,"((39, 1), (54, 1), (30, 1))",N,"((116, 1), (23, 1), (45, 1))",E
+test_images\test_image_2.jpg,test_image_2.jpg,Test Author,2024:01:15 10:30:00,173,279,Test Camera,Test Model X1,TestSoftware 1.0,2024:01:15 10:30:00,"(1, 200)","(28, 10)","(50, 1)",100,"((39, 1), (54, 1), (30, 1))",N,"((116, 1), (23, 1), (45, 1))",E

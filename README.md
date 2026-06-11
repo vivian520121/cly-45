@@ -1,0 +1,46 @@
+# ImgPurge - 图片元数据处理工具
+
+一个基于 Python + Click 开发的轻量级命令行图片元数据处理工具，用于批量离线清除照片隐私信息。
+
+## 功能特性
+
+- **批量处理**: 支持单文件或文件夹递归处理 jpg/png/webp/heic 格式图片
+- **EXIF 清除**: 一键清除定位、拍摄设备、时间戳、作者等隐私元数据
+- **信息提取**: 导出全部 EXIF 信息为 CSV 文本报表
+- **图片压缩**: 命令行指定宽高/质量批量压缩图片，保留比例
+- **文字水印**: 终端参数设置文字水印、透明度、位置
+- **预览模式**: dry-run 先模拟处理不修改原图，确认后再执行
+- **彩色日志**: 终端彩色日志输出，清晰直观
+- **智能跳过**: 自动跳过已处理文件，避免重复操作
+- **跨平台**: Windows/macOS 跨平台兼容
+
+## 安装
+
+```bash
+pip install -e .
+```
+
+## 使用示例
+
+```bash
+# 查看帮助
+imgpurge --help
+
+# 清除单个图片的 EXIF 信息
+imgpurge exif clear photo.jpg
+
+# 批量清除目录下所有图片的 EXIF 信息
+imgpurge exif clear ./photos/ --recursive
+
+# 导出 EXIF 信息为 CSV
+imgpurge extract ./photos/ --output exif_report.csv
+
+# 批量压缩图片
+imgpurge resize ./photos/ --width 1920 --quality 85 --output ./resized/
+
+# 添加文字水印
+imgpurge watermark ./photos/ --text "Copyright 2024" --opacity 0.5 --position bottom-right
+
+# 预览模式（不实际修改文件）
+imgpurge exif clear ./photos/ --dry-run
+```

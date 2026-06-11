@@ -1,0 +1,2 @@
+[console_scripts]
+imgpurge = imgpurge.cli:cli

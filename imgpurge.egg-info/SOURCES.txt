@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+imgpurge.egg-info/PKG-INFO
+imgpurge.egg-info/SOURCES.txt
+imgpurge.egg-info/dependency_links.txt
+imgpurge.egg-info/entry_points.txt
+imgpurge.egg-info/requires.txt
+imgpurge.egg-info/top_level.txt

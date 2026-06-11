@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imgpurge"
+version = "0.1.0"
+description = "A lightweight command-line image metadata processing tool for batch offline privacy cleaning"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "ImgPurge Team" }
+]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "click>=8.0.0",
+  "Pillow>=9.0.0",
+  "piexif>=1.1.3",
+  "pillow-heif>=0.12.0",
+  "colorama>=0.4.6",
+]
+
+[project.scripts]
+imgpurge = "imgpurge.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["imgpurge*"]
